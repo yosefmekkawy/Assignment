@@ -1,0 +1,85 @@
+.slogan-and-icon {
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+.main-header {
+  font-size: 3rem;
+}
+.main-header span:first-of-type {
+  color: #e14f4f;
+  font-style: italic;
+}
+.description {
+  font-size: 1.25rem;
+}
+/* youtube video container styling */
+
+.video-wrapper {
+  position: relative;
+  width: 560px;
+  height: 315px;
+  margin: auto;
+}
+.video-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("Media/section-video-thumbnail-600x385.png") center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.video-overlay .play-button {
+  border: none;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.video-overlay .play-button i {
+  font-size: 2.5rem;
+  color: #e14f4f;
+}
+.youtube-video {
+  display: none;
+  width: 100%;
+  height: 100%;
+}
+.fullscreen-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+.fullscreen-video {
+  width: 80%;
+  height: 80%;
+}
+.close-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: rgba(255, 255, 255, 0.8);
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 1001;
+}
